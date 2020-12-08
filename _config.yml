@@ -1,0 +1,78 @@
+# Site settings
+name: 'Septians'
+description: "Hello, I'm Septian. I help teams build machine learning on cloud."
+meta_description: 'A blog about the life of a machine learning engineer.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: 
+production_url: http://septian-putra.github.io/
+mailchimp_url: 
+cover_image: 'bc_1.jpg'
+
+# Add your GA Tracking Id
+ga_analytics: 'UA-143421382-1'
+
+# Author
+author:
+  name: 'Septian Gilang Permana Putra'
+  image: 'authorimage.jpg'
+  greetings: "Hello, world.  I'm Septian."
+  description: |
+    <strong>Machine Learning engineer. Computer science education consultant.  RaspberryPi hobbyist.</strong><br>
+    This is a glimpse into my first year as a software engineer.  I hope to take some of the mystery out of what it's like to work at a fast-paced tech company.
+  bio: "Software engineer. Computer science education consultant.  Android hobbyist."
+
+# Contact form setings
+email: 'septian-putra@hotmail.com'
+contact_page_description: "Looking forward to reading what you have to say!"
+thankyou_page_description: "Your message has been successfully sent. I will reply soon."
+
+# Social links
+twitter: 'cscheerleader'
+#facebook: 'username'
+linkedin: 'riagalanos'
+github: 'septian-putra'
+#codepen: 'username'
+#dribbble: 'username'
+#medium: '@username'
+#instagram: 'username'
+#pinterest: 'username'
+#producthunt: '@username'
+rss: 'https://cscheerleader.com/feed.xml'
+
+# Navigation
+navigation:
+  - text: About
+    url: /about
+  - text: CV
+    url: /cv
+  - text: APCS A 
+    url: /apcs-a
+  - text: Contact Me
+    url: /contact  
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+plugins:
+  - jemoji
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
