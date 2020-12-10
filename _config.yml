@@ -10,7 +10,7 @@ mailchimp_url:
 cover_image: 'bc_1.jpg'
 
 # Add your GA Tracking Id
-ga_analytics: 'UA-143421382-1'
+# ga_analytics: 'UA-143421382-1'
 
 # Author
 author:
@@ -38,14 +38,14 @@ github: 'septian-putra'
 #instagram: 'username'
 #pinterest: 'username'
 #producthunt: '@username'
-#rss: 'https://cscheerleader.com/feed.xml'
+#rss: 'https://septiangilang.wordpresscom/feed.xml'
 
 # Navigation
 navigation:
   - text: About
     url: /about
   - text: CV
-    url: /cv
+    url: /resume
   - text: Contact Me
     url: /contact  
 
