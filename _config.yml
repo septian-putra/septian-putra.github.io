@@ -1,7 +1,7 @@
 # Site settings
-name: 'Septians'
+name: 'Septian'
 description: "Hello, I'm Septian. I help teams build machine learning on cloud."
-meta_description: 'A blog about the life of a machine learning engineer.'
+meta_description: ''
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
@@ -16,11 +16,11 @@ ga_analytics: 'UA-143421382-1'
 author:
   name: 'Septian Gilang Permana Putra'
   image: 'authorimage.jpg'
-  greetings: "Hello, world.  I'm Septian."
+  greetings: "Hello, I'm Septian."
   description: |
     <strong>Machine Learning engineer. Computer science education consultant.  RaspberryPi hobbyist.</strong><br>
     This is a glimpse into my first year as a software engineer.  I hope to take some of the mystery out of what it's like to work at a fast-paced tech company.
-  bio: "Software engineer. Computer science education consultant.  Android hobbyist."
+  bio: "Machine Learning Engineer. Full Stack Data Scientist. RaspberryPi hobbyist."
 
 # Contact form setings
 email: 'septian-putra@hotmail.com'
@@ -28,9 +28,9 @@ contact_page_description: "Looking forward to reading what you have to say!"
 thankyou_page_description: "Your message has been successfully sent. I will reply soon."
 
 # Social links
-twitter: 'cscheerleader'
+twitter: 'septiangilang_'
 #facebook: 'username'
-linkedin: 'riagalanos'
+linkedin: 'septian-putra'
 github: 'septian-putra'
 #codepen: 'username'
 #dribbble: 'username'
@@ -38,7 +38,7 @@ github: 'septian-putra'
 #instagram: 'username'
 #pinterest: 'username'
 #producthunt: '@username'
-rss: 'https://cscheerleader.com/feed.xml'
+#rss: 'https://cscheerleader.com/feed.xml'
 
 # Navigation
 navigation:
@@ -46,8 +46,6 @@ navigation:
     url: /about
   - text: CV
     url: /cv
-  - text: APCS A 
-    url: /apcs-a
   - text: Contact Me
     url: /contact  
 
