@@ -135,6 +135,15 @@ footer p {
 	font: 100% Rockwell, Arvo, serif;
 }</code></pre>
 
+<pre><code class="language-bash">#!/usr/bin/env bash
+INSTALL_COMMAND="sudo pip install"
+dependencies="pandas numpy statsmodels pyarrow==0.12.1 boto3 botocore py4j"
+sudo apt-get install -y python-pip gcc
+for dep in $dependencies; do
+	$INSTALL_COMMAND $dep
+done;</code></pre>
+
+
 ## Lists
 ### Unordered Lists
 
