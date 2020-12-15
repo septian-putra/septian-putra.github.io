@@ -4,18 +4,24 @@ title: About
 featured_image:
 #featured_image: /assets/images/pages/about.jpg
 ---
-{% include image-caption.html imageurl="/assets/images/pages/about.jpeg#right" title="Android Hobbyist" %}
+<!-- {% include image-caption.html imageurl="/assets/images/pages/about.jpeg#right" title="Android Hobbyist" %} -->
 
-I am the software engineering lead for learning and development at [Yext](http://www.yext.com){:target="_blank"}, a tech company focused on online brand management.  I am based out of Tysons Corner in Northern Virginia just outside of Washington, DC.  
+I am a machine learning engineer for at [Exact](https://www.exact.com/), a tech company focused on bookeeping software for SME and Accountant in the Netherland and Belgium.
+Prior to that, I was working as Software Engineer for a Security ICs at [Atmel/Microchip](https://www.microchip.com/design-centers/security-ics/cryptoauthentication).
+I am an certified AWS Solution Architect and really interested in working in Machine Learning Project in cloud environment.
 
-Prior to becoming a software engineer, I had been in the classroom for 18 years - 16 of those as a computer science teacher.  I am passionate about showing young people how to create something from nothing and making them thirsty to learn more.  I enjoy collaborating with and mentoring other teachers in order to improve student achievement.
+I am currently living in the Rotterdam, but originally from a very beautiful city of Yogyakarta, Indonesia. 
+I have so much passion in Machine Learning, Electronics, Football and Astronomy.
+In fact, I won Gold Medal in National Astronomy Competition and represent my country in 2009 International Astronomy Olympiad.
+In my spare time, I like to play FIFA, experiment with food and also visit some parks or Museums. 
 
-In addition to working at Yext, I continue to serve as a consultant with the College Board, leading workshops for AP Computer Science A teachers.
+This website is mainly to remind myself about something that I already thought, did or learned related to Data Science, Machine Learning or Cloud Environment.
+Hopefully, they will be usefull for any of you that somehow found this website.
 
-I often get asked to speak to teachers on a variety of CS education topics.  My current passions are teaching native Android development and making assignments that use real-world data as ways of motivating students and keeping them interested in their work.
+<!-- If you are interested in more non-work related content, I also write another blog ([https://septiangilang.wordpress.com](https://septiangilang.wordpress.com)) but mostly in Indonesian. -->
 
-Had a [soundbite](https://www.marketplace.org/2012/08/03/summer-camp-young-techies/){:target="_blank"} once on NPR.  Still can't get over that it involved cats.
+Oh, If you want to know even more about me, you can read my [CV](http://septian-putra.gihub.io/resume). Feel free to contact me if you want to have deeper discussion about anything. Enjoy your visit! 
+ 
+  
+-- Septian --
 
-I retired from coaching cheerleading in 2014.  I now use my pom poms to cheer for CS.
-
-If you want to know even more about me, you can read my [CV](http://cscheerleader.com/cv).
