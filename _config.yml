@@ -42,12 +42,13 @@ medium: '@septiangilang'
 navigation:
   - text: About
     url: /about
-  - text: CV
-    url: /cv
-  - text: Style-Guide
-    url: /style-guide
+  - text: Resume
+    url: /resume
   - text: Contact Me
     url: /contact  
+  # - text: Style-Guide
+  #   url: /style-guide
+
 
 # Required Plugins
 plugins_dir:

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: CV
+title: Resume
 # featured_image:
 ---
 
-You can download the PDF version of this CV [here](https://example.com).
+You can download the PDF version of this resume [here](https://example.com).
 
 # Education
 <table>
