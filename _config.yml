@@ -18,8 +18,7 @@ author:
   image: 'authorimage.jpg'
   greetings: "Hello, I'm Septian."
   description: |
-    <strong>Machine Learning engineer. Computer science education consultant.  RaspberryPi hobbyist.</strong><br>
-    This is a glimpse into my first year as a software engineer.  I hope to take some of the mystery out of what it's like to work at a fast-paced tech company.
+    <strong>Machine Learning Engineer. Full Stack Data Scientist. RaspberryPi hobbyist.</strong><br>
   bio: "Machine Learning Engineer. Full Stack Data Scientist. RaspberryPi hobbyist."
 
 # Contact form setings
