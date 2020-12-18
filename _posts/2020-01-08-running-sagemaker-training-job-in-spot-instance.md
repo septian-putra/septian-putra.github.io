@@ -2,9 +2,6 @@
 layout: post
 title: "Running Sagemaker Training Job in Spot Instance"
 categories: engineering
-# image: 'https://i.imgur.com/TZPQtBH.jpg'
-# hero_image: https://i.imgur.com/xOBa0sU.jpg
-# hero_height: is-large
 published: false
 ---
 
@@ -24,27 +21,24 @@ We also need to set the method's authorizationType property in AWS API Gateway t
 
 Below is the JSON configuration attached to the IAM policy, `<name>-api-invoker`, with X, Y and Z is depends on your endpoint. You can also set X, Y, Z to `*` to allow access to all endpoint, but it is not recommended to do so. 
 
-{% highlight javascript linenos %}
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "execute-api:Invoke",
-                "execute-api:ManageConnections"
-            ],
-            "Resource": "arn:aws:execute-api:<X>:<Y>:<Z>"
-        }
-    ]
-}
-{% endhighlight %}
+<pre><code class="language-json">{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Effect": "Allow",
+          "Action": [
+              "execute-api:Invoke",
+              "execute-api:ManageConnections"
+          ],
+          "Resource": "arn:aws:execute-api:<X>:<Y>:<Z>"
+      }
+  ]
+}</code></pre>
 
 After creating the invoker policy for specific endpoint, we create an IAM role for the invoker,`<name>-api-invoker`, and attach the previous policy to it. Below is the example of Trust Relationship setting attached to the IAM role.
 You can set user to `root` to give access to all user from the account.
 
-{% highlight javascript linenos %}
-{
+<pre><code class="language-json">{
   "Version": "2012-10-17",
   "Statement": [
     {
@@ -69,8 +63,7 @@ You can set user to `root` to give access to all user from the account.
       "Action": "sts:AssumeRole"
     }
   ]
-}
-{% endhighlight %}
+}</code></pre>
 
 
 ## Authentication Steps
@@ -78,8 +71,7 @@ You can set user to `root` to give access to all user from the account.
 To call a deployed API or refresh the API caching, API callers need to have permission which requires them to perform IAM authentication actions, including AssumeRole to the InvokerRole we defined in the previous section.
 
 Here is an example of how to call the endpoint from another account:
-{% highlight python linenos %}
-
+<pre><code class="language-py">
 import requests, boto3, json
 from boto3.session import Session
 from aws_requests_auth.aws_auth import AWSRequestsAuth
@@ -109,7 +101,7 @@ payload = <json_object>
 s_data=json.dumps(payload)
 response = requests.post(endpoint_url, data=s_data, auth=auth)
 response.text
-{% endhighlight %}
+</code></pre>
 
 ## What do you think?
 

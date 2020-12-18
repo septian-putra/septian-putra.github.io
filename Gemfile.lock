@@ -92,6 +92,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-tagsgenerator
+  jekyll-watch
   jemoji
   tzinfo-data
 

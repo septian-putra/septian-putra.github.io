@@ -17,75 +17,74 @@ Both approaches required a running EMR Cluster with Spark, Hadoop, Ganglia, Jupy
 1. Click create cluster button in EMR Console, and then go to advanced options.
 2. In Step Software and Steps, choose the lates EMR release and checked  Spark, Hadoop, Ganglia, JupyterHub, and Livy.
 3. Select Enter configuration. Fill with the following JSON
-```javascript
-[
-	{
-		"classification": "yarn-site",
-		"properties": {
-			"yarn.nodemanager.pmem-check-enabled": "false",
-			"yarn.nodemanager.vmem-check-enabled": "false"
-		}
-	},
-	{
-		"classification": "spark",
-		"properties": {
-			"maximizeResourceAllocation": "false"
-		}
-	},
-	{
-		"classification": "spark-defaults",
-		"properties": {
-			"spark.executor.instances": "8",
-			"spark.executor.cores": "2,
-			"spark.executor.memory": "17G",
-			"spark.executor.memoryOverhead": "2G",
-			"spark.driver.cores": "2",
-			"spark.driver.memory": "17G",
-			"spark.driver.memoryOverhead": "2G",
-			"spark.executor.heartbeatInterval": "60s",
-			"spark.rdd.compress": "true",
-			"spark.network.timeout": "800s",
-			"spark.memory.storageFraction": "0.30",
-			"spark.sql.shuffle.partitions": "50",
-			"spark.yarn.scheduler.reporterThread.maxFailures": "1",
-			"spark.shuffle.spill.compress": "true",
-			"spark.shuffle.compress": "true",
-			"spark.storage.level": "MEMORY_AND_DISK_SER",
-			"spark.default.parallelism": "50",
-			"spark.serializer": "org.apache.spark.serializer.KryoSerializer",
-			"spark.memory.fraction": "0.80",
-			"spark.executor.extraJavaOptions": "-XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+G1SummarizeConcMark -XX:InitiatingHeapOccupancyPercent=75 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:OnOutOfMemoryError='kill -9 %p'",
-			"spark.dynamicAllocation.enabled": "false",
-			"spark.driver.extraJavaOptions": "-XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+G1SummarizeConcMark -XX:InitiatingHeapOccupancyPercent=75 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:OnOutOfMemoryError='kill -9 %p'"
-		}
-	},
-	{
-		"classification": "livy-conf",
-		"properties": {
-			"livy.server.session.timeout": "4h"
-		}
-	},
-	{
-		"classification": "jupyter-s3-conf",
-		"properties": {
-			"s3.persistence.bucket": "aws-emr-resources-<your_account>-<your_region>",
-			"s3.persistence.enabled": "true"
-		}
-	}
-]
-```
+    <pre><code class="language-json">[
+        {
+            "classification": "yarn-site",
+            "properties": {
+                "yarn.nodemanager.pmem-check-enabled": "false",
+                "yarn.nodemanager.vmem-check-enabled": "false"
+            }
+        },
+        {
+            "classification": "spark",
+            "properties": {
+                "maximizeResourceAllocation": "false"
+            }
+        },
+        {
+            "classification": "spark-defaults",
+            "properties": {
+                "spark.executor.instances": "8",
+                "spark.executor.cores": "2",
+                "spark.executor.memory": "17G",
+                "spark.executor.memoryOverhead": "2G",
+                "spark.driver.cores": "2",
+                "spark.driver.memory": "17G",
+                "spark.driver.memoryOverhead": "2G",
+                "spark.executor.heartbeatInterval": "60s",
+                "spark.rdd.compress": "true",
+                "spark.network.timeout": "800s",
+                "spark.memory.storageFraction": "0.30",
+                "spark.sql.shuffle.partitions": "50",
+                "spark.yarn.scheduler.reporterThread.maxFailures": "1",
+                "spark.shuffle.spill.compress": "true",
+                "spark.shuffle.compress": "true",
+                "spark.storage.level": "MEMORY_AND_DISK_SER",
+                "spark.default.parallelism": "50",
+                "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
+                "spark.memory.fraction": "0.80",
+                "spark.executor.extraJavaOptions": "-XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+G1SummarizeConcMark -XX:InitiatingHeapOccupancyPercent=75 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:OnOutOfMemoryError='kill -9 %p'",
+                "spark.dynamicAllocation.enabled": "false",
+                "spark.driver.extraJavaOptions": "-XX:+UseG1GC -XX:+UnlockDiagnosticVMOptions -XX:+G1SummarizeConcMark -XX:InitiatingHeapOccupancyPercent=75 -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:OnOutOfMemoryError='kill -9 %p'"
+            }
+        },
+        {
+            "classification": "livy-conf",
+            "properties": {
+                "livy.server.session.timeout": "4h"
+            }
+        },
+        {
+            "classification": "jupyter-s3-conf",
+            "properties": {
+                "s3.persistence.bucket": "aws-emr-resources-&lt;your_account&gt;-&lt;your_region&gt;",
+                "s3.persistence.enabled": "true"
+            }
+        }
+    ]
+</code></pre>
+
 4. In Step Hardware, select your public EC2 subnet and then select m5.large as Master with On Demand option, and r4.2xlarge or r4.2xlarge as Slave with Spot option. You can use [Spot Instance Advisor](https://aws.amazon.com/ec2/spot/instance-advisor/) to check which instance type has less frequent interruption.
 Start with the 1 master and 3 slaves if you don't know how big the cluster you need.
 5. In Step General Cluster Settings, provide the cluster name.
 6. Select Custom action for Bootstrap Actions and point JAR location in S3. Below is some example of a bootstrap script.
-	<pre><code class="language-bash">
-	```#!/usr/bin/env bash
-	INSTALL_COMMAND="sudo pip install"
-	dependencies="pandas numpy statsmodels pyarrow==0.12.1 boto3 botocore py4j"
-	sudo apt-get install -y python-pip gcc
-	for dep in $dependencies; do
-		$INSTALL_COMMAND $dep
-	done;</code></pre>*There is a compatibility issues regarding the pyarrow package at the time this post is created. Check yourself which pyarrow version is currently working.*
+    <pre><code class="language-bash">#!/usr/bin/env bash
+    INSTALL_COMMAND="sudo pip install"
+    dependencies="pandas numpy statsmodels pyarrow==0.12.1 boto3 botocore py4j"
+    sudo apt-get install -y python-pip gcc
+    for dep in $dependencies; do
+        $INSTALL_COMMAND $dep
+    done;</code></pre>*There is a compatibility issues regarding the pyarrow package at the time this post is created. Check yourself which pyarrow version is currently working.*
 
 7. In Step Security, provide Additional security groups for Master and for Slave, which allow access to some ports for [EMR application interface](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-web-interfaces.html).
 8. Click create cluster button.
