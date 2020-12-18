@@ -7,7 +7,6 @@ gem "jekyll", ">= 3.6.3"
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :jekyll_plugins do
-  gem 'jekyll-watch'
   gem 'jekyll-paginate'
   gem 'jekyll-tagsgenerator'
   gem 'jekyll-seo-tag'
