@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About
-featured_image:
-#featured_image: /assets/images/pages/about.jpg
+title: About Me
+featured_image: /assets/images/pages/resume1.jpg
 ---
 <!-- {% include image-caption.html imageurl="/assets/images/pages/about.jpeg#right" title="Android Hobbyist" %} -->
 

@@ -76,12 +76,4 @@ A persistent Spot Instance request remains active until it expires or you cancel
 b
 
 ### Automate Spot Instance request and termination
-The step to create spot instance and terminating it via console is time consuming and boring, we can use this script to ease that process, such as specifying the instance parameters, choosing the region, bidding the price, and tagging the instance.
-
-<pre><code class="language-json">
-
-</code><pre>
-
-<pre><code class="language-bash">
-
-</code><pre>
+The step to create spot instance and terminating it via console is time consuming and boring. I created a script to ease those processes, including specifying the instance parameters, choosing the region, bidding the price, and tagging the instance. The script is implemented using the boto3 library and currently available in the GitHub repository. To use it, users need to prepare the requirements as mentioned in the repository.

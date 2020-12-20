@@ -1,58 +1,94 @@
 ---
 layout: page
-title: Resume
-# featured_image:
+title: <p align="center">Septian Gilang Permana Putra</p>
 ---
+<p align="center"><img src="/assets/images/resume.jpg" width="320"></p>
 
-You can download the PDF version of this resume [here](https://example.com).
+### Profile
+* Machine Learning Engineer / Full Stack Data Scientist with more than 3 years experience.
+* 5+ years experience in software development for commercial products
+* Strong background in social media crawling, financial forcasting, and natural language processing
+* Highly-motivated, fast learner, team player, INTJ-A (based on 16-personalities) and D/C Challenger (based on DISC)
 
-# Education
+
+
+### Education
 <table>
-<thead>
-<tr>
-   <th>Period</th>
-   <th>Details</th>
-  </tr>
-</thead>
  <tbody>
   <tr>
-   <td>Permitted content</td>
+   <td>Sep 2016 – Sep 2018</td>
    <td>
-    An optional <code>&lt;caption&gt;</code> element;<br />
-    zero or more <code>&lt;colgroup&gt;</code> elements;<br />
-    an optional <code>&lt;thead&gt;</code> element;<br />
-    an optional <code>&lt;tfoot&gt;</code> element;
+    <strong>M.Sc. Computer Science, Delft University of Technology</strong><br/>
+    Thesis: “SME Credit Scoring Based on Social Media Data”<br/>
+    GPA: 7.8/10<br/>
    </td>
   </tr>
   <tr>
-   <td>Tag omission</td>
-   <td>None, both the start tag and the end tag are mandatory</td>
-  </tr>
-  <tr>
-   <td>Permitted parent elements</td>
-   <td>Any element that accepts flow content</td>
-  </tr>
-  <tr>
-   <td>Normative document</td>
-   <td><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/tabular-data.html#the-table-element" rel="external nofollow">HTML5, section 4.9.1</a> (<a href="http://www.w3.org/TR/REC-html40/struct/tables.html#edef-TABLE">HTML4.01, section 11.2.1</a>)</td>
+   <td>Aug 2010 – Jul 2014</td>
+   <td>
+    <strong>B.Sc. Electrical Engineering, Institut Teknologi Bandung (ITB)</strong><br/>
+    Thesis: “Smart Controller for Fuel Dispenser System”<br/>
+    GPA: 3.77/4<br/>
+   </td>
   </tr>
  </tbody>
 </table>
 
+### Work
+<table>
+ <tbody>
+  <tr>
+   <td>Nov 2017 – present</td>
+   <td>
+    <strong>Data Scientist/Machine Learning Engineer at Exact Software, Delft (NL)</strong><br/>
+    * Build bankruptcy prediction model from social media and financial data<br/>
+    * Build deep learning models for text or document classification<br/>
+    * Build churn prediction models based on activity data<br/>
+    * Deploy model as an REST API using AWS Sagemaker or Lambda<br/>
+   </td>
+  </tr>
+  <tr>
+   <td>Aug 2014 – Jul 2016</td>
+   <td>
+    <strong>Application Engineer at Microchip Technology Inc., Tangerang (ID)</strong><br/>
+    * Implement library and example application for Security IC<br/>
+    * Support client in developing security application, i.e. Xiaomi and Samsung<br/>
+   </td>
+  </tr>
+    <tr>
+   <td>Sep 2013 – Apr 2014</td>
+   <td>
+    <strong>Software Engineer Intern at PT LEN Industri (Persero), Bandung (ID)</strong><br/>
+    * Implemented prototype of data logger for ATP (Automatic Train Protection)<br/>
+   </td>
+  </tr>
+ </tbody>
+</table>
 
-# Work
+### Certification
+* [AWS Certified Cloud Practitioner](https://www.youracclaim.com/badges/a6a0a795-0c9b-4150-a5e1-9e08d825695a)
+  Issued Aug 2020 - Expires Aug 2023
+* [AWS Certified Solutions Architect – Associate](https://www.youracclaim.com/badges/9f9e5124-9020-4316-a903-badc36b4de98)
+  Issued Aug 2020 - Expires Aug 2023
 
+### Skill
+* Language: Python, Scala,  C/C++, JavaScript, Java, Verilog, VHDL
+* Tools: Tensorflow, Terraform, Spark, Docker
+* NoSQL database: DynamoDB, Redis, Cassandra
+* Other skill: Solution Architechting, Web Scraping, Social Media Crawling
 
+### Publication
+* Putra, Septian Gilang Permana, et al. "A Credit Scoring Model for SMEs Based on Social Media Data." *International Conference on Web Engineering*. Springer, Cham, 2020.
+* Permadi, Reza Aditya, et al. "DUT-MMSR at MediaEval 2017: Predicting Media Interestingness Task." *MediaEval.* 2017.
+* Ardyanto, Aditya Ferry, et al. "Real-time soc architecture and implementation for variable speech pdf based noise cancellation system." *2014 The 1st International Conference on Information Technology, Computer, and Electrical Engineering*. IEEE, 2014.
 
-# Publication
-Usage notes:
-* The &lt;ul&gt; element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared.
-* There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
-* The &lt;ol&gt; and &lt;ul&gt; elements both represent a list of items. They differ in that, with the &lt;ol&gt; element, the order is meaningful.
+### Honors & Awards
+* **Awardee, Indonesia Endowment Fund for Education (LPDP)**<br/>
+  A scholarship program funded by the Indonesian government to finance higher education in master or doctoral program.
+* **SIS Award, 17th LSI Design Contest, Okinawa**<br/>
+  The award is given to participant who get 1st Place Winner of LSI Design Contest in 2014. The challenge for that year is designing noise cancelation chip.
+* **1st Winner, KOMURINDO 2013 (Rocket Competition)**<br/>
+  Competition held by Indonesian National Institute of Aeronautics and Space (LAPAN) to implement payload for monitoring rocket's dynamics and taking aerial photographs.
+* **Gold Medal and Best Practical Work in, Indonesia Astronomy Olympiad 2009**<br/>
+  National competition for high school student held by the Ministry of Education and Culture. The winner will represent Indonesia in international competition (IAO/IOAA)
 
-# Honour
-* The &lt;ul&gt; element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared.
-* There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
-* The &lt;ol&gt; and &lt;ul&gt; elements both represent a list of items. They differ in that, with the &lt;ol&gt; element, the order is meaningful.
-
-# Project
