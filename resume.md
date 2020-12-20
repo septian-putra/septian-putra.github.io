@@ -2,14 +2,13 @@
 layout: page
 title: <p align="center">Septian Gilang Permana Putra</p>
 ---
-<p align="center"><img src="/assets/images/resume.jpg" width="320"></p>
+<p align="center"><img src="/assets/images/pages/resume.jpg" width="320"></p>
 
 ### Profile
-* Machine Learning Engineer / Full Stack Data Scientist with more than 3 years experience.
+* Machine Learning Engineer / Full Stack Data Scientist with 3+ years experience.
 * 5+ years experience in software development for commercial products
-* Strong background in social media crawling, financial forcasting, and natural language processing
-* Highly-motivated, fast learner, team player, INTJ-A (based on 16-personalities) and D/C Challenger (based on DISC)
-
+* Strong background in social media crawling, financial forecasting, natural language processing and efficient large dataset pipelining
+* Strong coding and debugging skill, highly-motivated, fast learner, team player, **D/C Challenger** (based on DISC personalities), and **INTJ-A** (based on 16-personalities)
 
 
 ### Education
@@ -91,4 +90,3 @@ title: <p align="center">Septian Gilang Permana Putra</p>
   Competition held by Indonesian National Institute of Aeronautics and Space (LAPAN) to implement payload for monitoring rocket's dynamics and taking aerial photographs.
 * **Gold Medal and Best Practical Work in, Indonesia Astronomy Olympiad 2009**<br/>
   National competition for high school student held by the Ministry of Education and Culture. The winner will represent Indonesia in international competition (IAO/IOAA)
-
