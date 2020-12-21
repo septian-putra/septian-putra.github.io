@@ -13,7 +13,7 @@ One of the challenge is to make sure that it is securely configured. In my case,
 So, a controll access mechanism need to be implemented to only allow specific AWS account invoking the endpoint and I will share how I implement it in this post.
 
 <!--more-->
-## Permission Model
+### Permission Model
 
 To allow an API caller (from another AWS account) to invoke the API or refresh its caching, we need to create IAM policies that permit a specified API caller to invoke the API method, for which the IAM user authentication is enabled.
 
@@ -68,7 +68,7 @@ You can set user to `root` to give access to all user from the account.
 }</code></pre>
 
 
-## Authentication Steps
+### Authentication Steps
 
 To call a deployed API or refresh the API caching, API callers need to have permission which requires them to perform IAM authentication actions, including AssumeRole to the InvokerRole we defined in the previous section.
 
@@ -105,6 +105,6 @@ response = requests.post(endpoint_url, data=s_data, auth=auth)
 response.text
 </code></pre>
 
-## What do you think?
+### What do you think?
 
 If you decide to give the theme a go, it would be great to see how you are using it and if you have any ideas of how it can be developed further.

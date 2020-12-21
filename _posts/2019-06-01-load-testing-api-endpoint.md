@@ -19,13 +19,13 @@ What we can do is test the endpoint by giving the expected maximum load and obse
 
 Some open-source tools are available to fasilitate this kind of testing, including:
 
-## [Locust](https://github.com/locustio/locust)
+### [Locust](https://github.com/locustio/locust)
 Locust is a Python-based load testing tool with a real-time web UI for monitoring results.
 Locust can also be run in distributed mode, where you can run a cluster of Locust servers and have them produce load in a coordinated fashion, but we need to configure it ourselves.
 I use this often in my projects and in my opinion it is really good to do a simple load testing. [Here](https://github.com/septian-putra/locust-loadtesting), you can find some example code to use Locust for load testing.
 
 
-## [Bees with Machine Guns!](https://github.com/newsapps/beeswithmachineguns)
+### [Bees with Machine Guns!](https://github.com/newsapps/beeswithmachineguns)
 Bees with Machine Guns! is a utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications). It works on the AWS environment and has the capability to automatically handle the creation and termination of multiple EC2 instances. It is good for testing the endpoint which exposed to multiple clients in multiple regions and availabilities zones and often used to check whether the load balancer is working properly as it can also perform spike testing. 
 
 Source:
