@@ -92,18 +92,18 @@ title: <p align="center">Septian Gilang Permana Putra</p>
   National competition for high school student held by the Ministry of Education and Culture. The winner will represent Indonesia in international competition (IAO/IOAA)
 
 ### Other Projects
-* EMR Cost Optimization
+* **EMR Cost Optimization**<br/>
   Optimize configuration, monitoring and automatic termination of Amazon EMR cluster based on usability.
-* [Predicting Interestingness](https://www.youtube.com/watch?t=341&v=dWhSJuR5DuM&feature=youtu.be)
+* [**Predicting Interestingness**](https://www.youtube.com/watch?t=341&v=dWhSJuR5DuM&feature=youtu.be)<br/>
   Built the best model in MediaEval 2017 to identify images labeled as interesting given a set of movie’s key-frames.
-* Genre Popularity
+* **Genre Popularity**<br/>
   Estimated music genre popularity in the Netherland based on #nowplaying on Twitter and Last.fm data.
-* [Public Transport around TU Delft](https://youtu.be/yzl_RQEvFQs?t=6)
-  Visualized an interactive train and bus schedule from Rotterdam and the Hague to TU Delft.
-* Fraud Detection
+* [**Public Transport around TU Delft**](https://youtu.be/yzl_RQEvFQs?t=6)<br/>
+  Visualized an interactive train and bus schedule to TU Delft using D3.js
+* **Fraud Detection**<br/>
   Built prediction model for credit card fraud from historical transaction data.
 
 
 ### Personal Interest
-* Football, F1, photography, badminton, and cooking.
+* Football, Formula 1, photography, badminton, and cooking.
 

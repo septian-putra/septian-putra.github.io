@@ -46,8 +46,8 @@ navigation:
     url: /resume
   - text: Contact Me
     url: /contact  
-  - text: Style-Guide
-    url: /style-guide
+  # - text: Style-Guide
+  #   url: /style-guide
 
 
 # Required Plugins
