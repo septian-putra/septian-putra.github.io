@@ -13,7 +13,7 @@ With the Spark and Jupyter Notebook functionality in AWS EMR, it is easy to set 
 There are 2 different ways to use Spark and Jupyter Notebook on EMR, first is using the EMR Notebook and the second is using JupyterHub from the master node.
 Both approaches required a running EMR Cluster with Spark, Hadoop, Ganglia, JupyterHub, and Livy installed. 
 
-## Setup EMR Cluster
+### Setup EMR Cluster
 1. Click create cluster button in EMR Console, and then go to advanced options.
 2. In Step Software and Steps, choose the lates EMR release and checked  Spark, Hadoop, Ganglia, JupyterHub, and Livy.
 3. Select Enter configuration. Fill with the following JSON
@@ -89,20 +89,20 @@ Start with the 1 master and 3 slaves if you don't know how big the cluster you n
 7. In Step Security, provide Additional security groups for Master and for Slave, which allow access to some ports for [EMR application interface](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-web-interfaces.html).
 8. Click create cluster button.
 
-### Using EMR Notebook (Method 1)
+#### Using EMR Notebook (Method 1)
 1.  Go to Notebook tabs in the EMR console page.
 2.  Create Notebook, fill Notebook Name, Description and running cluster to attach.
 3.  Select Create Notebook. When it's ready, click Open.
 4.  Your jupyter notebook is available.
 
-### Using JupyterHub on Master Node (Method 2)
+#### Using JupyterHub on Master Node (Method 2)
 1.  In the EMR console page, select your cluster. Click the JupyterHub hyperlink.
 2.  If Warning: Potential Security Risk Ahead pop up, click advanced, accept the risk and continue.
 3.  Login using `jovyan` as user name and `jupyter` as password
 4.  Create your own folder with your name, launch a Jupyter Notebook inside the folder.
 5.  Your jupyter notebook is available 
 
-## Managing Your Pyspark Session
+### Managing Your Pyspark Session
 Apache Livy is a service that enables interaction with a Spark cluster over a REST interface, including submission of Spark code and Spark session management. By default, when we run a Jupyter cell, Livy will convert it into JSON and then send to the EMR Cluster. However, we can also run the script locally by specifying a magic `%%local` on top of a Jupyter cell.
 
 In Method 1, we use serverless features in which the Jupyter Notebook is launched in an instance that internally handled by AWS.
