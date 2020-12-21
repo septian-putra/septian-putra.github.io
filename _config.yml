@@ -18,8 +18,8 @@ author:
   image: 'authorimage.jpg'
   greetings: "Hello, I'm Septian."
   description: |
-    <strong>Machine Learning Engineer. Full Stack Data Scientist. RaspberryPi hobbyist.</strong><br>
-  bio: "Machine Learning Engineer. Full Stack Data Scientist. RaspberryPi hobbyist."
+    <strong>Machine Learning Engineer. Full Stack Data Scientist</strong><br>
+  bio: "Machine Learning Engineer. Full Stack Data Scientist."
 
 # Contact form setings
 email: 'septian-putra@hotmail.com'
