@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <p align="center">Septian Gilang Permana Putra</p>
+title: Resume
 ---
 <p align="center"><img src="/assets/images/pages/resume.jpg" width="320"></p>
 
