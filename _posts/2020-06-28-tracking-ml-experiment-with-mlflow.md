@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Managing ML Experiment with MLFlow"
+title: "Tracking ML Experiment with MLFlow"
 tags: [ development, machine-learning, logging ]
 categories: engineering
 published: true
