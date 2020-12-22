@@ -77,9 +77,9 @@ title: <p align="center">Septian Gilang Permana Putra</p>
 * Other skill: Solution Architechting, Web Scraping, Social Media Crawling
 
 ### Publication
-* Putra, Septian Gilang Permana, et al. "A Credit Scoring Model for SMEs Based on Social Media Data." *International Conference on Web Engineering*. Springer, Cham, 2020.
-* Permadi, Reza Aditya, et al. "DUT-MMSR at MediaEval 2017: Predicting Media Interestingness Task." *MediaEval.* 2017.
-* Ardyanto, Aditya Ferry, et al. "Real-time soc architecture and implementation for variable speech pdf based noise cancellation system." *2014 The 1st International Conference on Information Technology, Computer, and Electrical Engineering*. IEEE, 2014.
+* Putra, Septian Gilang Permana, et al. **"A Credit Scoring Model for SMEs Based on Social Media Data."** *International Conference on Web Engineering*. Springer, Cham, 2020.
+* Permadi, Reza Aditya, et al. **"DUT-MMSR at MediaEval 2017: Predicting Media Interestingness Task."** *MediaEval.* 2017.
+* Ardyanto, Aditya Ferry, et al. **"Real-time soc architecture and implementation for variable speech pdf based noise cancellation system."** *2014 The 1st International Conference on Information Technology, Computer, and Electrical Engineering*. IEEE, 2014.
 
 ### Honors & Awards
 * **Awardee, Indonesia Endowment Fund for Education (LPDP)**<br/>
