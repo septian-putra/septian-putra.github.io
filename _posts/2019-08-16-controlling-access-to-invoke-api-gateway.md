@@ -3,7 +3,6 @@ layout: post
 title: "Controlling Access to Invoke API Gateway"
 tags: [ production, aws, python ]
 categories: engineering
-image: 'https://i.imgur.com/TZPQtBH.jpg'
 published: true
 ---
 

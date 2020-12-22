@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About Me
-featured_image: /assets/images/pages/resume1.jpg
+# featured_image: /assets/images/pages/resume1.jpg
 ---
-<!-- {% include image-caption.html imageurl="/assets/images/pages/about.jpeg#right" title="Android Hobbyist" %} -->
+<p align="center"><img src="/assets/images/pages/resume1.jpg" width="900"></p>
 
 I am a machine learning engineer for at [Exact](https://www.exact.com/), a tech company focused on bookeeping software for SME and Accountant in the Netherland and Belgium.
 Prior to that, I was working as Software Engineer for a Security ICs at [Atmel/Microchip](https://www.microchip.com/design-centers/security-ics/cryptoauthentication).
