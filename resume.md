@@ -82,20 +82,20 @@ title: Resume
 * Ardyanto, Aditya Ferry, et al. **"Real-time soc architecture and implementation for variable speech pdf based noise cancellation system."** *2014 The 1st International Conference on Information Technology, Computer, and Electrical Engineering*. IEEE, 2014.
 
 ### Honors & Awards
+* [**Best Model for Images in Predicting Media Interestingness Task, MediaEval 2017**](https://www.youtube.com/watch?t=341&v=dWhSJuR5DuM&feature=youtu.be)<br/>
+  Built best model to select images segments that are considered to be the most interesting for a common viewer given a set of movie’s key-frames.
 * **Awardee, Indonesia Endowment Fund for Education (LPDP)**<br/>
   A scholarship program funded by the Indonesian government to finance higher education in master or doctoral program.
 * **SIS Award, [17th LSI Design Contest](http://www.lsi-contest.com/2014/result_2014_e.html), Okinawa**<br/>
   The award is given to participant who get 1st Place Winner of LSI Design Contest in 2014. The challenge for that year is designing noise cancelation chip.
 * **1st Winner, KOMURINDO 2013 (Rocket Competition)**<br/>
   Competition held by Indonesian National Institute of Aeronautics and Space (LAPAN) to build payload for monitoring dynamics and taking aerial photographs.
-* **Gold Medal and Best Practical Work in, Indonesia Astronomy Olympiad 2009**<br/>
+* **Gold Medal and Best Practical Work in Astronomy, Indonesia Science Olympiad 2009**<br/>
   National competition for high school student held by the Ministry of Education and Culture. The winner will represent Indonesia in international competition (IAO/IOAA)
 
 ### Other Projects
 * **EMR Cost Optimization**<br/>
   Optimize configuration, monitoring and automatic termination of Amazon EMR cluster based on usability.
-* [**Predicting Interestingness**](https://www.youtube.com/watch?t=341&v=dWhSJuR5DuM&feature=youtu.be)<br/>
-  Built the best model in MediaEval 2017 to identify images labeled as interesting given a set of movie’s key-frames.
 * **Genre Popularity**<br/>
   Estimated music genre popularity in the Netherland based on #nowplaying on Twitter and Last.fm data.
 * [**Public Transport around TU Delft**](https://youtu.be/yzl_RQEvFQs?t=6)<br/>
