@@ -37,13 +37,36 @@ title: Resume
 <table>
  <tbody>
   <tr>
-   <td>Nov 2017 – present</td>
+   <td>July 2024 – present</td>
+   <td>
+    <strong>Principal Data Scientist at Nielsen, Rotterdam (NL)</strong><br/>
+   </td>
+  </tr>
+  <tr>
+   <td>Nov 2022 – June 2024</td>
+   <td>
+    <strong>Lead Data Scientist at Nielsen, Rotterdam (NL)</strong><br/>
+   </td>
+  </tr>
+  <tr>
+   <td>Jun 2021 – Nov 2022</td>
+   <td>
+    <strong>Senior Data Scientist at Nielsen, Rotterdam (NL)</strong><br/>
+    * Build reach prediction model for various platform for media planning<br/>
+    * Build imputation project for cross-platform audience measurement<br/>
+    * Develop automation pipeline that reduce release time, manual work and cost<br/>
+    * Develop and maintain internal Python package<br/>
+   </td>
+  </tr>
+  <tr>
+   <td>Nov 2017 – May 2021</td>
    <td>
     <strong>Data Scientist/Machine Learning Engineer at Exact Software, Delft (NL)</strong><br/>
     * Build bankruptcy prediction model from social media and financial data<br/>
+    * Build anomaly detection for money laundry and suspicious transaction<br/>
     * Build deep learning models for text or document classification<br/>
     * Build churn prediction models based on activity data<br/>
-    * Deploy model as an REST API using AWS Sagemaker or Lambda<br/>
+    * Deploy model as an REST API using AWS Sagemaker and Lambda<br/>
    </td>
   </tr>
   <tr>
